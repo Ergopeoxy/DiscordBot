@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DiscordBot
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        public static async Task Main(string[] args)
+            => await StartUp.RunAsync(args);
+
     }
 }
